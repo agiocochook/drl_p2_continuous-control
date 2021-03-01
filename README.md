@@ -6,7 +6,7 @@ In order to perform this training, we use the Deep Deterministic Policy Gradient
 
 The code can be run by opening the notebook Continuous_Control.ipynb and running all cells.
   
-  References:
+## References:
   1. https://github.com/udacity/deep-reinforcement-learning
   2. https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Learning-Environment-Examples.md#reacher
   3. https://arxiv.org/abs/1509.02971
