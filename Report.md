@@ -20,18 +20,18 @@ The learning algorithm is based on Deep Deterministic Policy Gradients (DDPG) wh
 
 #### Actor 
 
-Actor(
-  (fc1): Linear(in_features=33, out_features=256, bias=True)
-  (fc2): Linear(in_features=256, out_features=128, bias=True)
-  (fc3): Linear(in_features=128, out_features=4, bias=True)
+Actor(\
+  (fc1): Linear(in_features=33, out_features=256, bias=True)\
+  (fc2): Linear(in_features=256, out_features=128, bias=True)\
+  (fc3): Linear(in_features=128, out_features=4, bias=True)\
 )
 
 #### Critic
 
-Critic(
-  (fcs1): Linear(in_features=33, out_features=256, bias=True)
-  (fc2): Linear(in_features=260, out_features=128, bias=True)
-  (fc3): Linear(in_features=128, out_features=1, bias=True)
+Critic(\
+  (fcs1): Linear(in_features=33, out_features=256, bias=True)\
+  (fc2): Linear(in_features=260, out_features=128, bias=True)\
+  (fc3): Linear(in_features=128, out_features=1, bias=True)\
 )
 
 
