@@ -37,6 +37,8 @@ Critic(\
 
 ## Results
 
+* The submission reports the number of episodes needed to solve the environment.
+* Include results plot
 
 ## Ideas for Future Work
 
