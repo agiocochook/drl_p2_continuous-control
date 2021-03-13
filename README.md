@@ -10,7 +10,7 @@ The code can be run by opening the notebook Continuous_Control.ipynb and running
 
 The Reacher environment consists of control of multiple robot arms. The observation space per agent is size 33 and describes the position, rotation, velocity and angular velocity of the robotic arm. The action space is of a vector of of four numbers in the range [-1,1] and represents torque on two joints. For each step that the hand is in the goal locations a reward of +0.1 is provided.
 
-### Instructions for aetting up the environment
+### Getting the required Files
 
 The notbook uses the multi-agent version of the environmwent. Download the environment from one of the links below. You need only select the environment that matches your operating system:
 
@@ -23,7 +23,34 @@ The notbook uses the multi-agent version of the environmwent. Download the envir
 
 (For AWS) If you'd like to train the agent on AWS (and have not enabled a virtual screen), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux_NoVis.zip) to obtain the "headless" version of the environment. You will not be able to watch the agent without enabling a virtual screen, but you will be able to train the agent. (To watch the agent, you should follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the Linux operating system above.)
 
+### Dependencies
 
+To set up your python environment to run the code in this repository, follow the instructions below.
+
+1. Create (and activate) a new environment with Python 3.6.
+
+- Linux or Mac:
+
+    conda create --name drlnd python=3.6
+    source activate drlnd
+    
+- Windows:
+
+    conda create --name drlnd python=3.6 
+    activate drlnd
+    
+Follow the instructions in this repository to perform a minimal install of OpenAI gym.
+
+Next, install the classic control environment group by following the instructions here.
+Then, install the box2d environment group by following the instructions here.
+Clone the repository (if you haven't already!), and navigate to the python/ folder. Then, install several dependencies.
+
+git clone https://github.com/udacity/deep-reinforcement-learning.git
+cd deep-reinforcement-learning/python
+pip install .
+Create an IPython kernel for the drlnd environment.
+python -m ipykernel install --user --name drlnd --display-name "drlnd"
+Before running code in a notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.
 ## References:
   1. https://github.com/udacity/deep-reinforcement-learning
   2. https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Learning-Environment-Examples.md#reacher
