@@ -8,7 +8,7 @@ The code can be run by opening the notebook Continuous_Control.ipynb and running
  
 ## Multi-Agent Reacher Environment
 
-The Reacher environment consists of control of multiple robot arms. The observation space per agent is size 33 and describes the position, rotation, velocity and angular velocity of the robotic arm. The action space is of size four and represents torque on two joints.
+The Reacher environment consists of control of multiple robot arms. The observation space per agent is size 33 and describes the position, rotation, velocity and angular velocity of the robotic arm. The action space is of a vector of of four numbers in the range [-1,1] and represents torque on two joints. For each step that the hand is in the goal locations a reward of +0.1 is provided.
 
 
 ## References:
