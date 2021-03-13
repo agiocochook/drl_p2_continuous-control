@@ -37,7 +37,7 @@ To set up your python environment to run the code in this repository, follow the
 </code> 
 <br /><br />
 
-  - Windows:<br /><br />
+  - Windows:
 <code> 
     conda create --name drlnd python=3.6 
     activate drlnd
