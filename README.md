@@ -53,6 +53,7 @@ To set up your python environment to run the code in this repository, follow the
     cd deep-reinforcement-learning/python
     pip install .
 </code> 
+
 6. Create an IPython kernel for the drlnd environment.
 
 <code> 
