@@ -24,7 +24,7 @@ The notbook uses the multi-agent version of the environmwent. Download the envir
 (For AWS) If you'd like to train the agent on AWS (and have not enabled a virtual screen), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux_NoVis.zip) to obtain the "headless" version of the environment. You will not be able to watch the agent without enabling a virtual screen, but you will be able to train the agent. (To watch the agent, you should follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the Linux operating system above.)
 
 ### Dependencies
-[this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux.zip)
+
 To set up your python environment to run the code in this repository, follow the instructions below.
 
 1. Create (and activate) a new environment with Python 3.6.
@@ -42,9 +42,9 @@ To set up your python environment to run the code in this repository, follow the
     activate drlnd
 </code> <br />
 <br />
-2. Follow the instructions in [this repository](https://github.com/openai/gym/) to perform a minimal install of OpenAI gym.<br /><br />
-3. Next, install the classic control environment group by following the instructions [here](https://github.com/openai/gym#classic-control/).<br /><br />
-4. Then, install the box2d environment group by following the instructions [here](https://github.com/openai/gym#box2d).<br /><br />
+2. Follow the instructions in this repository: https://github.com/openai/gym/ to perform a minimal install of OpenAI gym.<br /><br />
+3. Next, install the classic control environment group by following the instructions here: https://github.com/openai/gym#classic-control/.<br /><br />
+4. Then, install the box2d environment group by following the instructions here: https://github.com/openai/gym#box2d.<br /><br />
 5. Clone the repository (if you haven't already!), and navigate to the python/ folder. Then, install several dependencies.
 <br /><br />
 <code> 
@@ -53,7 +53,7 @@ To set up your python environment to run the code in this repository, follow the
     pip install .  
 </code> 
 <br /><br />
-6. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the drlnd environment.
+6. Create an IPython kernel (http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the drlnd environment.
 <br /><br />
 <code> 
     python -m ipykernel install --user --name drlnd --display-name "drlnd"
