@@ -42,10 +42,10 @@ To set up your python environment to run the code in this repository, follow the
     activate drlnd
 </code> 
 \
-2. Follow the instructions in [this repository](https://github.com/openai/gym) to perform a minimal install of OpenAI gym.\
-  - Next, install the classic control environment group by following the instructions [here](https://github.com/openai/gym#classic-control).\
-  - Then, install the box2d environment group by following the instructions [here](https://github.com/openai/gym#box2d).\
-3. Clone the repository (if you haven't already!), and navigate to the python/ folder. Then, install several dependencies.
+2. Follow the instructions in [this repository](https://github.com/openai/gym) to perform a minimal install of OpenAI gym.
+3.Next, install the classic control environment group by following the instructions [here](https://github.com/openai/gym#classic-control).
+4. Then, install the box2d environment group by following the instructions [here](https://github.com/openai/gym#box2d).
+5. Clone the repository (if you haven't already!), and navigate to the python/ folder. Then, install several dependencies.
 
 <code> 
     git clone https://github.com/udacity/deep-reinforcement-learning.git  
@@ -53,7 +53,7 @@ To set up your python environment to run the code in this repository, follow the
     pip install .  
 </code> 
 
-4. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the drlnd environment.
+6. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the drlnd environment.
 
 <code> 
     python -m ipykernel install --user --name drlnd --display-name "drlnd"
