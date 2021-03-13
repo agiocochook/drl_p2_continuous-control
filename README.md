@@ -36,12 +36,14 @@ To set up your python environment to run the code in this repository, follow the
     source activate drlnd
 </code> 
 
+
 - Windows:
 
 <code> 
     conda create --name drlnd python=3.6 
     activate drlnd
 </code> 
+
 
 2. Follow the instructions in [this repository](https://github.com/openai/gym) to perform a minimal install of OpenAI gym.
   - Next, install the classic control environment group by following the instructions [here](https://github.com/openai/gym#classic-control).
