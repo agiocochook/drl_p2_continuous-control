@@ -43,7 +43,7 @@ To set up your python environment to run the code in this repository, follow the
     activate drlnd
 </code> <br />
 <br />
-2. Follow the instructions in this repository: https://github.com/openai/gym/ to perform a minimal install of OpenAI gym.<br /><br />
+2. To perform a minimal install of OpenAI gym, follow the instructions in this repository: https://github.com/openai/gym/ t.<br /><br />
 3. Next, install the classic control environment group by following the instructions here: https://github.com/openai/gym#classic-control/.<br /><br />
 4. Then, install the box2d environment group by following the instructions here: https://github.com/openai/gym#box2d.<br /><br />
 5. Clone the repository (if you haven't already!), and navigate to the python/ folder. Then, install several dependencies.
@@ -61,6 +61,8 @@ To set up your python environment to run the code in this repository, follow the
     Before running code in a notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.
 </code>
 <br /><br />
+
+
 ## References:
   1. https://github.com/udacity/deep-reinforcement-learning
   2. https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Learning-Environment-Examples.md#reacher
