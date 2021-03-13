@@ -14,14 +14,6 @@ The Reacher environment consists of control of multiple robot arms. The observat
 
 The notbook uses the multi-agent version of the environmwent. Download the environment from one of the links below. You need only select the environment that matches your operating system:
 
-Version 1: One (1) Agent
-
-Linux: click here
-Mac OSX: click here
-Windows (32-bit): click here
-Windows (64-bit): click here
-Version 2: Twenty (20) Agents
-
 Linux: [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux.zip)
 Mac OSX: [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher.app.zip)
 Windows (32-bit): [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86.zip)
