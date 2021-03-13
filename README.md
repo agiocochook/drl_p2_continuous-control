@@ -43,9 +43,10 @@ To set up your python environment to run the code in this repository, follow the
 </code> <br />
 <br />
 2. Follow the instructions in [this repository](https://github.com/openai/gym/) to perform a minimal install of OpenAI gym.<br /><br />
-3. Next, install the classic control environment group by following the instructions [here](https://github.com/openai/gym#classic-control/).<br /><br />
-4. Then, install the box2d environment group by following the instructions [here](https://github.com/openai/gym#box2d).<br /><br />
-5. Clone the repository (if you haven't already!), and navigate to the python/ folder. Then, install several dependencies.
+3. [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux.zip)
+4. Next, install the classic control environment group by following the instructions [here](https://github.com/openai/gym#classic-control/).<br /><br />
+5. Then, install the box2d environment group by following the instructions [here](https://github.com/openai/gym#box2d).<br /><br />
+6. Clone the repository (if you haven't already!), and navigate to the python/ folder. Then, install several dependencies.
 <br /><br />
 <code> 
     git clone https://github.com/udacity/deep-reinforcement-learning.git  
