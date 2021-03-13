@@ -29,14 +29,14 @@ To set up your python environment to run the code in this repository, follow the
 
 1. Create (and activate) a new environment with Python 3.6.
 
-- Linux or Mac:
+  - Linux or Mac:
 
 <code>
     conda create --name drlnd python=3.6
     source activate drlnd
 </code> 
 \
-- Windows:
+  - Windows:
 
 <code> 
     conda create --name drlnd python=3.6 
