@@ -36,30 +36,30 @@ To set up your python environment to run the code in this repository, follow the
     source activate drlnd
 </code> 
 <br />
-  - Windows:
+  - Windows:<br /><br />
 <code> 
     conda create --name drlnd python=3.6 
     activate drlnd
 </code> 
 <br />
-2. Follow the instructions in [this repository](https://github.com/openai/gym) to perform a minimal install of OpenAI gym.<br />
-3.Next, install the classic control environment group by following the instructions [here](https://github.com/openai/gym#classic-control).<br />
-4. Then, install the box2d environment group by following the instructions [here](https://github.com/openai/gym#box2d).<br />
+2. Follow the instructions in [this repository](https://github.com/openai/gym) to perform a minimal install of OpenAI gym.<br /><br />
+3.Next, install the classic control environment group by following the instructions [here](https://github.com/openai/gym#classic-control).<br /><br />
+4. Then, install the box2d environment group by following the instructions [here](https://github.com/openai/gym#box2d).<br /><br />
 5. Clone the repository (if you haven't already!), and navigate to the python/ folder. Then, install several dependencies.
-<br />
+<br /><br />
 <code> 
     git clone https://github.com/udacity/deep-reinforcement-learning.git  
     cd deep-reinforcement-learning/python  
     pip install .  
 </code> 
-
+<br />
 6. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the drlnd environment.
-
+<br />
 <code> 
     python -m ipykernel install --user --name drlnd --display-name "drlnd"
     Before running code in a notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.
 </code>
-
+<br />
 ## References:
   1. https://github.com/udacity/deep-reinforcement-learning
   2. https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Learning-Environment-Examples.md#reacher
