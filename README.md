@@ -5,7 +5,12 @@ The contents of this repository represent project 2 of the Udacity Deep Reinforc
 In order to perform this training, we use the Deep Deterministic Policy Gradient (DDPG) algorithm. We solve this algorithm in a multi-agent case, where to goal is, using 20 agents, maintain a reward of +30 for at least 100 consecutive episodes.
 
 The code can be run by opening the notebook Continuous_Control.ipynb and running all cells.
-  
+ 
+## Multi-Agent Reacher Environment
+
+The Reacher environment consists of control of multiple robot arms. The observation space per agent is size 33 and describes the position, rotation, velocity and angular velocity of the robotic arm. The action space is of size four and represents torque on two joints.
+
+
 ## References:
   1. https://github.com/udacity/deep-reinforcement-learning
   2. https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Learning-Environment-Examples.md#reacher
