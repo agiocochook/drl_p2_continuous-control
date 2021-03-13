@@ -31,26 +31,35 @@ To set up your python environment to run the code in this repository, follow the
 
 - Linux or Mac:
 
+<code>
     conda create --name drlnd python=3.6
     source activate drlnd
-    
+</code> 
+       
 - Windows:
 
+</code> 
     conda create --name drlnd python=3.6 
     activate drlnd
-    
-Follow the instructions in this repository to perform a minimal install of OpenAI gym.
+</code> 
 
-Next, install the classic control environment group by following the instructions here.
-Then, install the box2d environment group by following the instructions here.
-Clone the repository (if you haven't already!), and navigate to the python/ folder. Then, install several dependencies.
+2. Follow the instructions in this repository to perform a minimal install of OpenAI gym.
+3.  Next, install the classic control environment group by following the instructions here.
+4. Then, install the box2d environment group by following the instructions here.
+5. Clone the repository (if you haven't already!), and navigate to the python/ folder. Then, install several dependencies.
 
-git clone https://github.com/udacity/deep-reinforcement-learning.git
-cd deep-reinforcement-learning/python
-pip install .
-Create an IPython kernel for the drlnd environment.
-python -m ipykernel install --user --name drlnd --display-name "drlnd"
-Before running code in a notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.
+<code> 
+    git clone https://github.com/udacity/deep-reinforcement-learning.git
+    cd deep-reinforcement-learning/python
+    pip install .
+</code> 
+6. Create an IPython kernel for the drlnd environment.
+
+<code> 
+    python -m ipykernel install --user --name drlnd --display-name "drlnd"
+    Before running code in a notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.
+</code>
+
 ## References:
   1. https://github.com/udacity/deep-reinforcement-learning
   2. https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Learning-Environment-Examples.md#reacher
