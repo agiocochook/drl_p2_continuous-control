@@ -6,9 +6,7 @@ THe implementation here is similar to the MADDPG algorithm, which is a multi-age
 
 The learning algorithm is based on Deep Deterministic Policy Gradients (DDPG) which learns the Q functions, and in turn uses the Q-function to learn the policy. DDPG can be described as an extension of DQN for continuous action spaces. It is similar to actor-critic methods in that it makes use of two deep neural networks. The "actor" learns to maximize the action-values function Q, while the "critic" learns to evaluate the action-value estimates from the "actor". 
 
-This algorithm also feature soft updates, containing two copies of each of the neural networks described above, known as local and target versions. The target networks are updated by a reduced factor from the updated local networks, e.g. 0.01% local + 99.99% target. In this way, the target network slowly incorporate updates from the local networks while maintaining stability. The target networks are then used to make predictions.
-
-More details on this can be found at [3]. The hyperparameters we used are listed below:
+This algorithm also feature soft updates, containing two copies of each of the neural networks described above, known as local and target versions. The target networks are updated by a reduced factor from the updated local networks, e.g. 0.01% local + 99.99% target. In this way, the target network slowly incorporates updates from the local networks while maintaining stability. The target networks are then used to make predictions. More details on this can be found at [3]. The hyperparameters we used are listed below:
 
 * Replay buffer size: 1e5
 * Minibatch size: 128   
